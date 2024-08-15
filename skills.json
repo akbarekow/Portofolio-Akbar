@@ -1,0 +1,65 @@
+[
+    
+    {
+        "name": "HTML",
+        "icon": "https://img.icons8.com/color/48/000000/html.png"
+    },
+    {
+        "name": "CSS",
+        "icon": "https://img.icons8.com/color/48/000000/css.png"
+    },
+    {
+        "name": "Java",
+        "icon": "https://img.icons8.com/color/48/000000/java-coffee-cup-logo--v1.png"
+    },
+    {
+        "name": "MySQL",
+        "icon": "https://img.icons8.com/color/48/000000/mysql-logo.png"
+    },
+    {
+        "name": "Videografi",
+        "icon": "https://img.icons8.com/?size=48&id=scLjjzQheCU0&format=png&color=000000"
+    },
+    {
+        "name": "Canva",
+        "icon": "https://img.icons8.com/?size=48&id=lAWjO4LexGga&format=png&color=000000"
+    },
+    {
+        "name": "Corel Draw",
+        "icon": "https://img.icons8.com/?size=48&id=2AxDEwFw7mqa&format=png&color=000000"
+    },
+    {
+        "name": "Mic. Word",
+        "icon": "https://img.icons8.com/?size=48&id=13674&format=png&color=000000"
+    }
+    ,
+    {
+        "name": "Mic. Excel",
+        "icon": "https://img.icons8.com/?size=48&id=13654&format=png&color=000000"
+    }
+    ,
+    {
+        "name": "PowerPoint",
+        "icon": "https://img.icons8.com/?size=48&id=81726&format=png&color=000000"
+    },
+    {
+        "name": "CapCut",
+        "icon": "https://img.icons8.com/?size=48&id=118638&format=png&color=000000" 
+    },
+    {
+        "name": "Filmora",
+        "icon": "https://img.icons8.com/?size=48&id=3GKqWSMI7o9v&format=png&color=000000"
+    },
+    {
+        "name": "Sony Vegas",
+        "icon": "https://img.icons8.com/?size=48&id=TMT0aaRFJR2k&format=png&color=000000"
+    },
+    {
+        "name": "Akuntansi",
+        "icon": "https://img.icons8.com/?size=48&id=22462&format=png&color=000000"
+    },
+    {
+        "name": "Kasir",
+        "icon": "https://img.icons8.com/?size=48&id=6WIyz9SfqFMm&format=png&color=000000"
+    }
+]
