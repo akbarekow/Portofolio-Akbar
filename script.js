@@ -71,7 +71,7 @@ document.addEventListener('visibilitychange',
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
-    strings: ["Staf Administrasi Umum", "Staf Administrasi Keuangan", "Kasir", "HUMAS", "Content Creator", "Freelancer"],
+    strings: ["Staf Administrasi Umum", "Staf Administrasi Keuangan", "Kasir", "Videografer", "Video Editor", "Graphic Designer", "Freelancer"],
     loop: true,
     typeSpeed: 50,
     backSpeed: 25,
