@@ -253,22 +253,3 @@ srtop.reveal('.experience .timeline .container', { interval: 400 });
 /* SCROLL CONTACT */
 srtop.reveal('.contact .container', { delay: 400 });
 srtop.reveal('.contact .container .form-group', { delay: 400 });
-
-
-  var audio = document.getElementById("backgroundAudio");
-  var playPauseBtn = document.getElementById("playPauseBtn");
-  var isPlaying = false;
-
-  function toggleAudio() {
-    if (isPlaying) {
-      audio.pause();
-      playPauseBtn.innerHTML = '<i class="fas fa-play"></i>';
-    } else {
-      audio.play();
-      playPauseBtn.innerHTML = '<i class="fas fa-pause"></i>';
-    }
-    isPlaying = !isPlaying;
-  }
-
-
-
