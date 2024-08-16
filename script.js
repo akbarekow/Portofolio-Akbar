@@ -68,6 +68,18 @@ document.addEventListener('visibilitychange',
         }
     });
 
+        document.addEventListener("DOMContentLoaded", function() {
+            var titleText = "Portofolio Akbar Eko Wicaksono";
+            var speed = 200; // Kecepatan dalam milidetik
+            function scrollTitle() {
+                document.title = titleText;
+                titleText = titleText.substring(1) + titleText.charAt(0);
+                setTimeout(scrollTitle, speed);
+            }
+            scrollTitle();
+        });
+
+
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
