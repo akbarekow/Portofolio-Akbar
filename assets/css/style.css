@@ -481,6 +481,14 @@ header .navbar ul li a:hover {
   color: black; /* Mengubah warna teks menjadi hitam */
 }
 
+/* Aturan untuk widget Google Maps */
+.about .row .content .box-container .map-container {
+  width: 100%;
+  height: 400px;
+  margin-top: 20px; /* Opsional, untuk memberikan sedikit jarak di atas peta */
+}
+
+
 .resumebtn {
   margin-top: 6rem;
 }
