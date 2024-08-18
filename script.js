@@ -82,6 +82,40 @@ document.addEventListener('visibilitychange',
 });
 
 
+// Hitung umur otomatis Start
+// Masukkan tanggal lahir Anda di sini
+const birthDate = new Date('1990-08-18');
+
+function calculateAge(birthDate) {
+    const today = new Date();
+    let years = today.getFullYear() - birthDate.getFullYear();
+    let months = today.getMonth() - birthDate.getMonth();
+
+    // Jika bulan kurang dari 0, kurangi usia tahun dan tambahkan 12 ke bulan
+    if (months < 0) {
+        years--;
+        months += 12;
+    }
+
+    // Jika tanggal hari ini lebih kecil dari tanggal lahir di bulan yang sama, kurangi 1 bulan
+    if (today.getDate() < birthDate.getDate()) {
+        months--;
+    }
+
+    // Jika hasil bulan negatif, perbaiki dengan menyesuaikan tahun
+    if (months < 0) {
+        months += 12;
+        years--;
+    }
+
+    return `${years} tahun ${months} bulan`;
+}
+
+document.getElementById('age').innerText = calculateAge(birthDate);
+// Hitung umur otomatis End
+
+
+
 
 // <!-- typed js effect starts -->
 var typed = new Typed(".typing-text", {
