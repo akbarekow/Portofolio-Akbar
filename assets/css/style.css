@@ -477,6 +477,10 @@ header .navbar ul li a:hover {
   color: #011aff;
 }
 
+#age {
+  color: black; /* Mengubah warna teks menjadi hitam */
+}
+
 .resumebtn {
   margin-top: 6rem;
 }
