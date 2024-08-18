@@ -84,7 +84,7 @@ document.addEventListener('visibilitychange',
 
 // Hitung umur otomatis Start
 // Masukkan tanggal lahir Anda di sini
-const birthDate = new Date('1990-08-18');
+const birthDate = new Date('1995-09-10');
 
 function calculateAge(birthDate) {
     const today = new Date();
