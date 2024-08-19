@@ -56,17 +56,17 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('visibilitychange', function () {
-    if (document.visibilityState === "visible") {
-        document.title = "Portfolio Akbar Eko Wicaksono";
-        // Mencegah caching
-        document.getElementById("favicon").setAttribute("href", "https://akbarekow.github.io/Portofolio-Akbar/assets/images/profile2.jpg" + new Date().getTime());
-    } else {
-        document.title = "Come Back To Portfolio";
-        // Mencegah caching
-        document.getElementById("favicon").setAttribute("href", "./assets/images/favhand.png?" + new Date().getTime());
-    }
-});
+// document.addEventListener('visibilitychange', function () {
+//     if (document.visibilityState === "visible") {
+//         document.title = "Portfolio Akbar Eko Wicaksono";
+//         // Mencegah caching
+//         document.getElementById("favicon").setAttribute("href", "https://akbarekow.github.io/Portofolio-Akbar/assets/images/profile2.jpg" + new Date().getTime());
+//     } else {
+//         document.title = "Come Back To Portfolio";
+//         // Mencegah caching
+//         document.getElementById("favicon").setAttribute("href", "./assets/images/favhand.png?" + new Date().getTime());
+//     }
+// });
 
 
 //     document.addEventListener("DOMContentLoaded", function() {
