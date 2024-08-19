@@ -68,18 +68,18 @@ document.addEventListener('visibilitychange',
         }
     });
 
-    document.addEventListener("DOMContentLoaded", function() {
-    var titleText = "   Selamat Datang di Portofolio Akbar Eko Wicaksono  |"; // Beri spasi di awal dan akhir untuk jarak
-    var speed = 200; // Kecepatan dalam milidetik
+//     document.addEventListener("DOMContentLoaded", function() {
+//     var titleText = "   Selamat Datang di Portofolio Akbar Eko Wicaksono  |"; // Beri spasi di awal dan akhir untuk jarak
+//     var speed = 200; // Kecepatan dalam milidetik
 
-    function scrollTitle() {
-        document.title = titleText;
-        titleText = titleText.substring(1) + titleText.charAt(0);
-        setTimeout(scrollTitle, speed);
-    }
+//     function scrollTitle() {
+//         document.title = titleText;
+//         titleText = titleText.substring(1) + titleText.charAt(0);
+//         setTimeout(scrollTitle, speed);
+//     }
 
-    scrollTitle();
-});
+//     scrollTitle();
+// });
 
 
 // Hitung umur otomatis Start
