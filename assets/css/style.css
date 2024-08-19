@@ -444,10 +444,11 @@ header .navbar ul li a:hover {
 .about .row .content h3 {
   color: rgb(27, 27, 27);
   font-size: 2.5rem;
+  margin-bottom: 1rem;
 }
 
 .about .row .content .tag {
-  font-size: 1.4rem;
+  font-size: 2rem;
   color: #020133;
   font-weight: 600;
   margin-top: 1rem;
@@ -459,17 +460,23 @@ header .navbar ul li a:hover {
   font-family: "Nunito";
   font-weight: 600;
   text-transform: none;
+  text-align: justify;
 }
 
 .about .row .content .box-container {
   display: flex;
   flex-wrap: wrap;
-  gap: 1.5rem;
+  gap: 0rem;
   font-family: "Nunito";
   font-weight: 600;
 }
 
+.about .row .content .box-container .box {
+  margin-bottom: 0rem; 
+}
+
 .about .row .content .box-container .box p {
+  margin: 0.5; 
   text-transform: none;
 }
 
@@ -483,11 +490,12 @@ header .navbar ul li a:hover {
 
 /* Aturan untuk widget Google Maps */
 .about .row .content .box-container .map-container {
-  width: 100%;
-  height: 400px;
-  margin-top: 20px; /* Opsional, untuk memberikan sedikit jarak di atas peta */
+  width: 200%; /* Kurangi ukuran lebar dari 100% menjadi 80% */
+  height: 200px; /* Kurangi tinggi dari 400px menjadi 300px */
+  margin-top: 20px; /* Tetap opsional */
+  border-radius: 20px; /* Membuat pojok kotak melingkar */
+  overflow: hidden; /* Untuk memastikan konten di dalam kotak tidak melampaui pojok yang melingkar */
 }
-
 
 .resumebtn {
   margin-top: 6rem;
@@ -916,7 +924,8 @@ header .navbar ul li a:hover {
 
 .work .box-container .box iframe {
   width: 100%;
-  height: 200px;
+   height: auto;
+  aspect-ratio: 16 / 9;
   /* Menyesuaikan tinggi untuk box video */
   border: 0;
 }
