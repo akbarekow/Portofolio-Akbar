@@ -56,17 +56,18 @@ $(document).ready(function () {
 
 });
 
-document.addEventListener('visibilitychange',
-    function () {
-        if (document.visibilityState === "visible") {
-            document.title = "Portfolio Akbar Eko Wicaksono";
-            $("#favicon").attr("href", "./assets/images/profile2.jpg");
-        }
-        else {
-            document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
-        }
-    });
+document.addEventListener('visibilitychange', function () {
+    if (document.visibilityState === "visible") {
+        document.title = "Portfolio Akbar Eko Wicaksono";
+        // Mencegah caching
+        document.getElementById("favicon").setAttribute("href", "./assets/images/profile2.jpg?" + new Date().getTime());
+    } else {
+        document.title = "Come Back To Portfolio";
+        // Mencegah caching
+        document.getElementById("favicon").setAttribute("href", "./assets/images/favhand.png?" + new Date().getTime());
+    }
+});
+
 
 //     document.addEventListener("DOMContentLoaded", function() {
 //     var titleText = "   Selamat Datang di Portofolio Akbar Eko Wicaksono  |"; // Beri spasi di awal dan akhir untuk jarak
