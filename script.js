@@ -60,11 +60,11 @@ document.addEventListener('visibilitychange',
     function () {
         if (document.visibilityState === "visible") {
             document.title = "Portfolio Akbar Eko Wicaksono";
-            $("#favicon").attr("href", "assets/images/profile2.jpg");
+            $("#favicon").attr("href", "./assets/images/profile2.jpg");
         }
         else {
             document.title = "Come Back To Portfolio";
-            $("#favicon").attr("href", "assets/images/favhand.png");
+            $("#favicon").attr("href", ".assets/images/favhand.png");
         }
     });
 
