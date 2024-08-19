@@ -69,7 +69,7 @@ document.addEventListener('visibilitychange',
     });
 
     document.addEventListener("DOMContentLoaded", function() {
-    var titleText = "   Portofolio Akbar Eko Wicaksono  |"; // Beri spasi di awal dan akhir untuk jarak
+    var titleText = "   Selamat Datang di Portofolio Akbar Eko Wicaksono  |"; // Beri spasi di awal dan akhir untuk jarak
     var speed = 200; // Kecepatan dalam milidetik
 
     function scrollTitle() {
