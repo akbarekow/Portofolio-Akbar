@@ -115,6 +115,13 @@ function calculateAge(birthDate) {
 document.getElementById('age').innerText = calculateAge(birthDate);
 // Hitung umur otomatis End
 
+// Tombol scrolling
+document.getElementById('scroll-indicator').addEventListener('click', function() {
+    window.scrollTo({
+        top: document.body.scrollHeight, // Scroll ke bagian bawah halaman
+        behavior: 'smooth' // Tambahkan animasi scroll yang halus
+    });
+});
 
 
 
