@@ -594,7 +594,7 @@ header .navbar ul li a:hover {
   color: rgb(255, 230, 0);
 }
 
-/* .skills .container {
+.skills .container {
   background: rgba(0, 0, 22, 0.4);
   color: #fff;
   border-radius: 1rem;
@@ -602,19 +602,7 @@ header .navbar ul li a:hover {
   width: 90%;
   margin: auto;
   margin-top: 2rem;
-} */
-
-.skills .container {
-  background: rgba(0, 0, 22, 0.4);
-  color: #fff;
-  border-radius: 1rem;
-  padding: 2rem;
-  width: 90vw; /* Lebar container akan menyesuaikan 90% dari lebar viewport */
-  max-width: 1200px; /* Membatasi lebar maksimal container agar tidak terlalu lebar di layar besar */
-  margin: 2rem auto; /* Margin otomatis untuk memusatkan container */
-  box-sizing: border-box; /* Memastikan padding tetap di dalam ukuran total elemen */
 }
-
 
 .skills .container .row {
   display: grid;
