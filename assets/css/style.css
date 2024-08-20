@@ -377,7 +377,7 @@ header .navbar ul li a:hover {
 
 .scroll-indicator {
   position: absolute;
-  bottom: 50px; /* Jarak dari bawah */
+  bottom: 100px; /* Jarak dari bawah */
   right: 20px;  /* Jarak dari kanan */
   z-index: 1000; /* Agar berada di atas elemen lain */
 }
