@@ -609,10 +609,10 @@ header .navbar ul li a:hover {
   color: #fff;
   border-radius: 1rem;
   padding: 2rem;
-  margin: 2rem auto;  /* Margin atas dan bawah otomatis, margin samping tetap auto */
-  display: inline-block; /* Menjadikan container mengikuti ukuran konten di dalamnya */
-  max-width: 100%; /* Membatasi lebar container agar tidak melebihi lebar layar */
-  box-sizing: border-box; /* Menjaga padding tetap di dalam ukuran total elemen */
+  width: 90vw; /* Lebar container akan menyesuaikan 90% dari lebar viewport */
+  max-width: 1200px; /* Membatasi lebar maksimal container agar tidak terlalu lebar di layar besar */
+  margin: 2rem auto; /* Margin otomatis untuk memusatkan container */
+  box-sizing: border-box; /* Memastikan padding tetap di dalam ukuran total elemen */
 }
 
 
