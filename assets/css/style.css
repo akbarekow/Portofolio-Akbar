@@ -398,6 +398,14 @@ header .navbar ul li a:hover {
   .home .content p span {
     font-size: 2.2rem;
   }
+
+  .scroll-indicator {
+    position: fixed;
+    bottom: 20px; /* Jarak dari bawah */
+    right: 20px;  /* Jarak dari kanan */
+    z-index: 1000; /* Agar berada di atas elemen lain */
+  }
+
 }
 
 /* hero media queries ends*/
