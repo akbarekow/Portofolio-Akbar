@@ -378,11 +378,11 @@ header .navbar ul li a:hover {
 .scroll-indicator {
   position: absolute; /* Posisi elemen relatif terhadap parent section */
   left: 50%; /* Memposisikan di tengah secara horizontal */
-  top: 60%; /* Memposisikan elemen sedikit ke bawah */
+  top: 80%; /* Memposisikan elemen sedikit ke bawah */
   transform: translateX(-50%); /* Memusatkan elemen secara horizontal */
   z-index: 10; /* Memastikan elemen berada di atas elemen lainnya */
-  width: 60px; /* Mengubah ukuran menjadi lebih kecil */
-  height: 60px; /* Mengubah ukuran menjadi lebih kecil */
+  width: 60px !important; /* Mengubah ukuran menjadi lebih kecil dengan prioritas tinggi */
+  height: 60px !important; /* Mengubah ukuran menjadi lebih kecil dengan prioritas tinggi */
 }
 
 
