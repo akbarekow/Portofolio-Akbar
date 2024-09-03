@@ -385,35 +385,6 @@ header .navbar ul li a:hover {
   height: 60px !important; /* Mengubah ukuran menjadi lebih kecil dengan prioritas tinggi */
 }
 
-/* Style tombol confetti berbentuk bulat */
-#confettiButton {
-  position: fixed;
-  bottom: 20px; /* Jarak dari bawah */
-  right: 20px;  /* Jarak dari kanan */
-  z-index: 1000;
-  width: 50px;
-  height: 50px;
-  background-color: rgba(255, 123, 0, 0.7); /* Warna semi-transparan */
-  border: none;
-  border-radius: 50%; /* Membuat tombol berbentuk bulat */
-  cursor: pointer;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
-  transition: background-color 0.3s;
-}
-
-#confettiButton img {
-  width: 24px;
-  height: 24px;
-}
-
-#confettiButton:hover {
-  background-color: rgba(230, 105, 0, 0.7); /* Warna berubah saat hover */
-}
-
-
 
 /* social icons end */
 

@@ -56,30 +56,6 @@ $(document).ready(function () {
 
 });
 
-// Memilih tombol dengan id 'confettiButton'
-document.getElementById('confettiButton').addEventListener('click', function() {
-    const duration = 5000; // Durasi confetti dalam milidetik (5 detik)
-    const end = Date.now() + duration;
-
-    (function frame() {
-        // Menjalankan confetti dengan opsi yang diatur
-        confetti({
-            particleCount: 3,
-            startVelocity: 30,
-            spread: 360,
-            origin: { x: Math.random(), y: 0 } // Menentukan confetti muncul dari atas
-        });
-
-        // Lanjutkan confetti sampai waktu habis
-        if (Date.now() < end) {
-            requestAnimationFrame(frame);
-        }
-    }());
-});
-
-
-
-
 // document.addEventListener('visibilitychange', function () {
 //     if (document.visibilityState === "visible") {
 //         document.title = "Portfolio Akbar Eko Wicaksono";
